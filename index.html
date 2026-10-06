@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>種籽星空電影院 × 午后無塑野餐音樂會｜11/14 回山上看熊鷹</title>
+<meta name="description" content="115年11月14日（六）下午3:00，種籽校園廣場。不插電音樂會、無塑野餐、《飛吧！熊鷹》露天放映與導演映後座談。">
+<meta property="og:title" content="種籽星空電影院 × 午后無塑野餐音樂會">
+<meta property="og:description" content="11/14（六）回種籽校園，帶上樂器與野餐墊，一起看《飛吧！熊鷹》。">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --day:#E4ECD6; --ink:#1B2E24; --moss:#4F7A3A; --night:#12203A; --moon:#F1E4B0; --amber:#E9B44C;
+  --serif:"Noto Serif TC","Songti TC","PMingLiU",serif;
+  --sans:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--ink);background:var(--day);line-height:1.85;font-size:1.0625rem}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.wrap{max-width:960px;margin:0 auto;padding:0 1.5rem}
+h1,h2{font-family:var(--serif);line-height:1.25}
+h2{font-size:clamp(1.6rem,4vw,2.2rem);margin-bottom:1.25rem}
+p+p{margin-top:1em}
+.btn{display:inline-block;padding:.85em 1.8em;border-radius:999px;background:var(--ink);color:var(--day);font-weight:700;text-decoration:none;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+
+/* hero */
+.hero{position:relative;overflow:hidden;
+  background:linear-gradient(180deg,#F2F0CF 0,var(--day) 55%)}
+.hero .wrap{position:relative;z-index:1;padding-top:4rem;padding-bottom:4rem}
+.hero .by{font-weight:500;color:var(--moss);margin-bottom:1rem}
+.hero h1{font-weight:900;font-size:clamp(2.4rem,8vw,5rem);letter-spacing:.02em}
+.hero h1 .x{display:block;font-size:.4em;font-weight:600;color:var(--moss);margin:.3em 0}
+.when{margin:2rem 0 .5rem;font-family:var(--serif);font-weight:600;font-size:clamp(1.3rem,3.4vw,1.8rem)}
+.where{margin-bottom:2rem}
+.count{margin-top:1.25rem;font-size:.95rem;color:var(--moss);font-weight:500;min-height:1.6em}
+.brand{display:inline-block;margin-bottom:1.5rem}
+.brand img{display:block;height:84px;width:auto}
+.photo{margin:3rem 0 0}
+.photo img{display:block;width:100%;height:auto;border-radius:18px;animation:rise 1.6s ease-out both}
+.photo figcaption{margin-top:.6rem;font-size:.9rem;color:var(--moss)}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.chip{display:inline-block;background:var(--day);border-radius:16px;padding:.5rem .75rem;margin-bottom:1.25rem}
+.chip img{display:block;height:64px;width:auto}
+
+/* invitation */
+.invite{padding:5rem 0}
+.invite .wrap{max-width:720px}
+
+/* info */
+.info{padding:0 0 5rem}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.5rem}
+.facts div{border-left:4px solid var(--moss);padding-left:1rem}
+.facts dt{font-weight:700;color:var(--moss);font-size:.95rem}
+.facts dd{font-family:var(--serif);font-weight:600;font-size:1.2rem;line-height:1.5}
+.facts dd small{display:block;font-family:var(--sans);font-weight:400;font-size:.95rem}
+
+/* schedule */
+.sched{padding:0 0 3rem}
+.tl{list-style:none;padding:0;border-left:3px solid var(--moss);margin-left:.5rem}
+.tl li{display:grid;grid-template-columns:7.5rem 1fr;gap:1rem;padding:0 0 2rem 1.5rem;position:relative}
+.tl li::before{content:"";position:absolute;left:-.62rem;top:.55rem;width:1rem;height:1rem;border-radius:50%;background:var(--day);border:3px solid var(--moss)}
+.tl time{font-family:var(--serif);font-weight:900;font-size:1.15rem}
+.tl h3{font-size:1.15rem;margin-bottom:.25rem}
+.tl ul{padding-left:1.1rem;font-size:1rem}
+
+/* dusk */
+.dusk-fade{height:200px;background:linear-gradient(180deg,var(--day),var(--night))}
+.night{color:#E9ECF5;background:var(--night);padding-bottom:5rem;
+  background-image:
+   radial-gradient(1.5px 1.5px at 30px 40px,#fff9,transparent),
+   radial-gradient(1px 1px at 120px 90px,#fff8,transparent),
+   radial-gradient(2px 2px at 200px 20px,var(--moon),transparent),
+   radial-gradient(1px 1px at 260px 150px,#fff9,transparent);
+  background-size:300px 200px,240px 180px,420px 260px,330px 220px}
+.night .tl{border-color:var(--moon)}
+.night .tl li::before{background:var(--night);border-color:var(--moon)}
+.night .tl time{color:var(--moon)}
+.guests{margin:3rem 0;padding:1.5rem 1.75rem;border:1px solid #F1E4B055;border-radius:14px;background:#0C16294d}
+.guests h2{font-size:1.4rem;color:var(--moon)}
+.guests ul{list-style:none;padding:0}
+.guests li+li{margin-top:.5rem}
+
+/* plastic-free */
+.green{padding:3rem 0 0}
+.green h2{color:var(--moon)}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.25rem;list-style:none;padding:0}
+.rules li{border-top:3px solid var(--moon);padding-top:.75rem}
+.rules strong{display:block;font-family:var(--serif);font-size:1.1rem}
+
+/* register */
+.reg{margin-top:4rem;text-align:left}
+.reg .btn{background:var(--moon);color:var(--night)}
+footer{margin-top:4rem;font-size:.9rem;opacity:.8}
+
+@media (max-width:560px){
+  .tl li{grid-template-columns:1fr;gap:.2rem}
+  .brand img{height:68px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .photo img{animation:none}
+  .btn{transition:none}
+}
+</style>
+</head>
+<body id="top">
+
+<header class="hero">
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="images/logo.png" alt="種籽 since 1994 標誌"></a>
+    <p class="by">種籽家長會 邀請大家回山上聚聚</p>
+    <h1>種籽星空電影院<span class="x">×</span>午后無塑野餐音樂會</h1>
+    <p class="when">115年11月14日（六）下午 3:00 – 晚上 7:30</p>
+    <p class="where">種籽校園廣場（雨備：種籽小劇場）</p>
+    <a class="btn" href="https://forms.gle/fYxj75xXFKnb8LCT9" target="_blank" rel="noopener">填寫報名表單</a>
+    <p class="count" id="count"></p>
+    <figure class="photo">
+      <img src="images/eagle.jpg" width="693" height="288" alt="熊鷹張開雙翅，翱翔在山林上空">
+      <figcaption>台灣體型最大的一級保育類猛禽——熊鷹</figcaption>
+    </figure>
+  </div>
+</header>
+
+<main>
+<section class="invite" id="invite">
+  <div class="wrap">
+    <h2>一起抬頭，看熊鷹</h2>
+    <p>親愛的種籽家人們（新、舊家庭、學長姐與老師們）：</p>
+    <p>當種籽校園裡充滿孩子們自在自由的身影，抬頭仰望，這片天空裡也徜徉著台灣體型最大、最神祕的一級保育類猛禽——熊鷹。你們是否也曾仰頭尋望，一起保存著這些種籽記憶呢？</p>
+    <p>我們透過台灣猛禽研究會，幸運獲得紀錄片《飛吧！熊鷹》的公播贊助，更邀請到本片導演梁皆得與猛禽研究會蔡秘書長，親臨現場進行映後座談。</p>
+    <p>11/14（六）午後，帶上你的樂器，我們在廣場辦一場自由音樂會。呼應本學期瑋寧帶領自然中高與猛禽研究會合作的課程——探討塑膠對野生動物的危害——也邀請大家帶著孩子一起實踐「無塑野餐」，用行動愛護這片與猛禽共享的土地。</p>
+    <p>這次也邀請了南勢溪流域的鄰居們同樂。過去校地承租有許多部落鄰居的支持，請種籽家人們一起來當熱情的主人。</p>
+  </div>
+</section>
+
+<section class="info" id="info">
+  <div class="wrap">
+    <dl class="facts">
+      <div><dt>時間</dt><dd>115年11月14日（六）<small>下午 3:00 – 晚上 7:30</small></dd></div>
+      <div><dt>地點</dt><dd>種籽校園廣場<small>雨備：種籽小劇場</small></dd></div>
+      <div><dt>主辦</dt><dd>種籽家長會<small>請自備野餐墊</small></dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="sched" id="schedule">
+  <div class="wrap">
+    <h2>活動流程</h2>
+    <ol class="tl">
+      <li>
+        <time>14:30 – 15:00</time>
+        <div><h3>迎賓報到，尋找好位子</h3><p>挑選廣場上的絕佳野餐位（請自備野餐墊）。</p></div>
+      </li>
+      <li>
+        <time>15:00 – 17:30</time>
+        <div><h3>森林音樂會與在地野餐</h3>
+          <ul>
+            <li>不插電音樂表演，校友與大小朋友自由彈唱</li>
+            <li>享用自備的無塑野餐與晚餐，和老朋友聊聊天</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<div class="dusk-fade" aria-hidden="true"></div>
+
+<div class="night">
+  <section class="wrap" style="padding-top:1rem">
+    <ol class="tl">
+      <li>
+        <time>17:30 – 19:10</time>
+        <div><h3>星空電影院開演</h3>
+          <ul>
+            <li>全體大合照</li>
+            <li>大螢幕播放《飛吧！熊鷹》</li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <time>19:10 – 19:40</time>
+        <div><h3>與導演有約：映後座談</h3><p>導演與猛禽研究會秘書長的交流時刻。</p></div>
+      </li>
+      <li>
+        <time>19:40 起</time>
+        <div><h3>整理校園，快樂賦歸</h3><p>帶著滿滿的回憶與合照回家。</p></div>
+      </li>
+    </ol>
+
+    <div class="guests">
+      <h2>映後座談來賓</h2>
+      <ul>
+        <li>梁皆得　《飛吧！熊鷹》導演</li>
+        <li>蔡秘書長　台灣猛禽研究會</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="green wrap" id="plastic-free">
+    <h2>無塑野餐，守護山林</h2>
+    <ul class="rules">
+      <li><strong>自備野餐墊</strong>挑一個喜歡的位子坐下。</li>
+      <li><strong>自備無塑餐點</strong>野餐與晚餐都請自行準備。</li>
+      <li><strong>垃圾不落地</strong>垃圾與廚餘自行帶回家。</li>
+    </ul>
+  </section>
+
+  <section class="wrap reg" id="register">
+    <h2>11/14（六）回種籽聚聚</h2>
+    <p>誠摯邀請所有在校家庭與歷屆校友，一起相約回種籽，一起看熊鷹。</p>
+    <p style="margin-top:1.5rem"><a class="btn" href="https://forms.gle/fYxj75xXFKnb8LCT9" target="_blank" rel="noopener">填寫報名表單</a></p>
+    <footer>
+      <span class="chip"><img src="images/logo.png" alt="種籽 since 1994 標誌"></span>
+      <p>主辦：種籽家長會</p>
+    </footer>
+  </section>
+</div>
+</main>
+
+<script>
+(function(){
+  var el=document.getElementById('count');
+  var target=new Date('2026-11-14T15:00:00+08:00');
+  var days=Math.ceil((target-new Date())/864e5);
+  if(days>1){el.textContent='距離活動還有 '+days+' 天';}
+  else if(days===1){el.textContent='活動就在明天，別忘了野餐墊！';}
+  else if(target-new Date()>-45e5){el.textContent='活動進行中，歡迎入座！';}
+})();
+</script>
+</body>
+</html>
